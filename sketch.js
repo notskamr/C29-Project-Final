@@ -70,7 +70,7 @@ function draw() {
   //Engine.update(engine);
   //text(mouseX + ',' + mouseY, 10, 15);
   textSize(20);
-  fill("lightyellow");
+  fill("yellow");
   text("Drag the Hexagonal Stone and Release it, to launch it towards the blocks",100,30);
 
   ground.display();
@@ -78,7 +78,7 @@ function draw() {
   stand2.display();
   strokeWeight(2);
   stroke(15);
-  fill("skyblue");
+  fill("blue");
   block1.display();
   block2.display();
   block3.display();
@@ -86,19 +86,19 @@ function draw() {
   block5.display();
   block6.display();
   block7.display();
-  fill("pink");
+  fill("gray");
   block8.display();
   block9.display();
   block10.display();
   block11.display();
   block12.display();
-  fill("turquoise");
+  fill("cyan");
   block13.display();
   block14.display();
   block15.display();
-  fill("grey");
+  fill("red");
   block16.display();
-  fill("skyblue");
+  fill("white");
   blocks1.display();
   blocks2.display();
   blocks3.display();
